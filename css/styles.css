@@ -103,14 +103,14 @@ a {
 .icons {
   display: flex;
   flex-wrap: wrap;
-  width: 800px;
+  width: 1000px;
   gap: 50px;
   justify-content: center;
 }
 
 .iconblock {
   display: inline-block;
-  width: 150px;
+  width: 100px;
 }
 
 .iconblock h4 {
@@ -118,14 +118,11 @@ a {
 }
 
 .videoframe {
-  margin-top: 20px;
+  margin: 20px auto 0;
   position: relative;
-  padding-bottom: 56.25%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 300px;
-  width: 500px;
+  width: 100%;
+  max-width: 560px;
+  aspect-ratio: 16 / 9;
 }
 
 .videoframe iframe {
@@ -137,16 +134,7 @@ a {
 }
 
 @media (max-width: 768px) {
-  .videoframe {
-    padding-bottom: 42.86%;
-    width: 100%;
-
-  }
+    max-width: 100%;
 }
 
-@media (max-width: 480px) {
-  .videoframe {
-    padding-bottom: 100%;
-  }
-}
 

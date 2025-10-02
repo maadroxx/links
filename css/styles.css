@@ -102,7 +102,8 @@ a {
 
 .icons {
   display: flex;
-  width: 500px;
+  flex-wrap: wrap;
+  width: 800px;
   gap: 50px;
   justify-content: center;
 }
@@ -148,3 +149,4 @@ a {
     padding-bottom: 100%;
   }
 }
+

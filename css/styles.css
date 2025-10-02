@@ -83,7 +83,7 @@ h3 {
 }
 
 .profile-text {
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 a {
@@ -103,8 +103,8 @@ a {
 .icons {
   display: flex;
   flex-wrap: wrap;
-  width: 1000px;
-  gap: 50px;
+  width: 100%;
+  gap: 25px;
   justify-content: center;
 }
 
@@ -136,5 +136,6 @@ a {
 @media (max-width: 768px) {
     max-width: 100%;
 }
+
 
 

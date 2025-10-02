@@ -22,10 +22,14 @@ body::before {
   width: 100%;
   height: 100%;
   background-image: url(../img/ryanback.png);
-  background-size: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   filter: brightness(0.6);
   z-index: -1;
 }
+
+
 
 .wrapper {
   height: 100vh;
@@ -136,6 +140,7 @@ a {
 @media (max-width: 768px) {
     max-width: 100%;
 }
+
 
 
 
